@@ -16,4 +16,9 @@ for(let key of Object.keys(obj1)){
         flag=false
     }
 }
+for(let key in obj2){
+    if(obj2[key] !== obj1[key]){
+        flag=false
+    }
+}
 console.log(flag)
